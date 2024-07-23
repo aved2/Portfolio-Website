@@ -1,8 +1,6 @@
 import React from 'react';
-import { HashRouter, Route, Routes, Link, useNavigate } from 'react-router-dom'
 import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
-import { LinkedInEmbed } from 'react-social-media-embed';
 import emailjs from 'emailjs-com';
 
 function App() {
