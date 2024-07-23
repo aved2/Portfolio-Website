@@ -169,12 +169,23 @@ function App() {
                   fontSize: '14px',
                   color: 'white',
                   backgroundColor: 'rgb(147, 12, 7)',
-                  width: '60px',
+                  width: '65px',
                   height: '24px',
                   borderRadius: '2px',
                   margin: '0px 3px'
                 }}>
                   ReactJS
+                </p>
+                <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(14, 123, 108)',
+                  width: '70px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  NodeJS
                 </p>
                 <p style={{
                   fontSize: '14px',
@@ -190,6 +201,39 @@ function App() {
                 <p style={{
                   fontSize: '14px',
                   color: 'white',
+                  backgroundColor: 'rgb(140, 123, 108)',
+                  width: '75px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  MongoDB
+                </p>
+                <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(103, 47, 180)',
+                  width: '68px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  Express
+                </p>
+                <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(14, 123, 108)',
+                  width: '40px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  EJS
+                </p>
+                <p style={{
+                  fontSize: '14px',
+                  color: 'white',
                   backgroundColor: 'rgb(153, 81, 18)',
                   width: '120px',
                   height: '24px',
@@ -199,41 +243,31 @@ function App() {
                 }}>
                   Google Firebase
                 </p>
-                <p style={{
-                  fontSize: '14px',
-                  color: 'white',
-                  backgroundColor: 'rgb(14, 123, 108)',
-                  width: '75px',
-                  height: '24px',
-                  borderRadius: '2px',
-                  margin: '0px 3px'
-                }}>
-                  MongoDB
-                </p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 128, 29)", width: "50px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Flask</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(17, 17, 163)", width: "75px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Bootstrap</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(154, 81, 81)", width: "90px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>RESTful API</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(35, 186, 21)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: "20px" }}>AWS</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(135, 106, 11)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>IBM</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 29, 85)", width: "70px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Streamlit</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(9, 168, 49)", width: "100px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>React Router</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(29, 114, 164)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>MUI</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(105, 29, 164)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>ReactFlow</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(105, 58, 71)", width: "85px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Context API</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(35, 186, 21)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>AWS</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(105, 58, 71)", width: "85px", height: "24px", borderRadius: "2px", margin: "0px 3px"}}>Context API</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(61, 97, 106)", width: "70px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: "20px" }}>GHPages</p>
               </div>
               <div className="langs-list">
                 <p style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginRight: "10px" }}>AI/ML: </p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(40, 70, 130)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>PyTorch</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>TensorFlow</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 19, 159)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenCV</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 128, 29)", width: "82px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenAI API</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(29, 153, 164)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Llama3</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(60, 80, 80)", width: "67px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>LMStudio</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(90, 134, 8)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Phidata</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(165, 30, 180)", width: "75px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>LangChain</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(163, 153, 22)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>FAISS</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>TensorFlow</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(163, 153, 22)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: "20px" }}>FAISS</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(108, 54, 134)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>BERT</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(121, 130, 231)", width: "45px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Scipy</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(154, 81, 81)", width: "75px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>MatPlotLib</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(121, 130, 231)", width: "50px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Scipy</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(154, 81, 81)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>MatPlotLib</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(132, 91, 42)", width: "90px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>SciKit-Learn</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(90, 8, 134)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Numpy</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(8, 54, 134)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Pandas</p>
@@ -264,8 +298,95 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="row text-center">
+          <div className="row text-center">            
           <Popup contentStyle={{ width: "95vw", borderRadius: "10px", paddingBottom: "20px", marginTop: "90px", maxHeight: "90vh", overflowY: "auto" }} trigger={
+              <div className="col-lg-3 col-sm-6">
+                <div className="projects py-5 px-4 border">
+                  <h5>Real Time Sign Language Recognition</h5>
+                  <p>Custom ML model to detect and translate sign language from your webcam </p>
+                  <div className="langs">
+                    <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: "5px" }}>TensorFlow</p>
+                    <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 19, 159)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenCV</p>
+                    <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(147, 12, 7)',
+                  width: '65px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  ReactJS
+                </p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(135, 106, 11)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>IBM Cloud</p>
+                  </div>
+                  <span className="custom-link">
+                    <span className="rm">Read more</span>
+                    <i className="ri-arrow-right-s-line"></i>
+                  </span>
+                </div>
+              </div>} modal nested
+            >
+              {close => (
+                <div>
+                  <div className="container" style={{ flexShrink: 2 }}>
+                    <div className="row text-center" style={{ flexShrink: 5 }}>
+                      <button className="btn btn-brand" style={{ width: "110px", display: "flex", marginTop: "20px", justifyContent: "space-between" }} onClick={() => { close() }}><i class="ri-arrow-left-s-line"></i>Back</button>
+                      <div className="col-12">
+                        <div className="setion-title text-center">
+                          <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>Real Time Sign Language Recognition</h1>
+                          <div style={{ display: "flex", justifyContent: "center", flexShrink: "2" }}>
+                            <p class="python">Python</p>
+                            <p className="JavaScript">JavaScript</p>
+                            <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: "5px" }}>TensorFlow</p>
+                    <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 19, 159)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenCV</p>
+                    <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(147, 12, 7)',
+                  width: '65px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  ReactJS
+                </p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(135, 106, 11)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>IBM Cloud</p>
+                          </div>
+                          <div className="line"></div>
+                          <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                            • Custom TensorFlow model trained to detect and translate American Sign Language
+                          </p>
+                          <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                            • OpenCV integration to allow real time detection through webcam
+                          </p>
+                          <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                            • Converted TensorFlowJS model hosted with IBM Cloud Object Storage
+                          </p>
+                          <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                            • ReactJS frontend to display webcam feed and detections
+                          </p>
+                          <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                            • Deployed with IBM Cloud Code Engine
+                          </p>
+                          <div style={{ display: "flex", marginTop: "5%", flexShrink: "2"}}>
+                        <h4 style={{ marginRight: '10px' }}><i class="ri-cursor-line"></i></h4>
+                        <h4 style={{ marginRight: '15px' }}>Website Link: </h4>
+                        <a href="https://sign-lang-recog.1jplb85vqagb.us-east.codeengine.appdomain.cloud/" target="_blank" rel="noopener noreferrer" className="email">sign-lang-recog.1jplb85vqagb.us-east.codeengine.appdomain.cloud/</a>
+                      </div>
+                      <div style={{ display: "flex", marginTop: "5%", flexShrink: "2" }}>
+                        <h4 style={{ marginRight: '10px' }}><i className="ri-github-fill"></i></h4>
+                        <h4 style={{ marginRight: '15px' }}>Source Code: </h4>
+                        <a href="https://github.com/aved2/SignLanguageRecognition" target="_blank" rel="noopener noreferrer" className="email">github.com/aved2/SignLanguageRecognition</a>
+                      </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </Popup>
+            <Popup contentStyle={{ width: "95vw", borderRadius: "10px", paddingBottom: "20px", marginTop: "90px", maxHeight: "90vh", overflowY: "auto" }} trigger={
               <div className="col-lg-3 col-sm-6">
                 <div className="projects py-5 px-4 border">
                   <h5>ML Trading Bot</h5>
@@ -295,8 +416,7 @@ function App() {
                             <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(40, 70, 130)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>PyTorch</p>
                             <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(190, 134, 108)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Alpaca</p>
                             <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(90, 8, 134)", width: "60px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Lumibot</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "58px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>finBERT</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(154, 81, 81)", width: "90px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>RESTful API</p>
+                            <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "58px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>finBERT</p>
                           </div>
                           <div className="line"></div>
                           <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
@@ -307,9 +427,6 @@ function App() {
                           </p>
                           <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
                             • Alpaca API from Lumibot as a trading and brokerage platform
-                          </p>
-                          <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                            • RESTful API from Alpaca to manage and make trades
                           </p>
                           <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
                             • Backtracking tested on SPY index from Jan 2020 to Dec 2023 with 36.24% anual return, 234% total return, and 0.72 Sharpe Ratio
@@ -333,6 +450,135 @@ function App() {
                   </div>
                 </div>
               )}
+            </Popup>
+            <Popup contentStyle={{ width: "95vw", borderRadius: "10px", paddingBottom: "20px", marginTop: "90px", maxHeight: "90vh", overflowY: "auto" }} trigger={
+              <div className="col-lg-3 col-sm-6">
+                <div className="projects py-5 px-4 border">
+                  <h5>CRUD User Management Service</h5>
+                  <p>Full stack user management portal with CRUD capabilities. Deployed with AWS EC2. </p>
+                  <div className="langs">
+                  <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(14, 123, 108)',
+                  width: '70px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px',
+                  marginBottom: '5px'
+                }}>
+                  NodeJS
+                </p>
+                <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(14, 123, 108)',
+                  width: '40px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  EJS
+                </p>
+                    <p className="JavaScript">JavaScript</p>
+
+                    <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(35, 186, 21)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>AWS</p>
+                  </div>
+                  <span className="custom-link">
+                    <span className="rm">Read more</span>
+                    <i className="ri-arrow-right-s-line"></i>
+                  </span>
+                </div>
+              </div>} modal nested
+            >
+              {close => (<div className="container">
+                <div className="row text-center">
+                  <button className="btn btn-brand" style={{ width: "110px", display: "flex", marginTop: "20px", justifyContent: "space-between" }} onClick={() => close()}><i class="ri-arrow-left-s-line"></i>Back</button>
+                  <div className="col-12">
+                    <div className="setion-title text-center">
+                      <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>CRUD User Management Service</h1>
+                      <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
+                      <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(14, 123, 108)',
+                  width: '70px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px',
+                  marginBottom: '5px'
+                }}>
+                  NodeJS
+                </p>
+                <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(140, 123, 108)',
+                  width: '75px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  MongoDB
+                </p>
+                    <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(190, 20, 180)',
+                  width: '40px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px'
+                }}>
+                  EJS
+                </p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(120, 170, 180)", width: "75px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Bootstrap</p>
+                <p style={{
+                  fontSize: '14px',
+                  color: 'white',
+                  backgroundColor: 'rgb(103, 47, 180)',
+                  width: '68px',
+                  height: '24px',
+                  borderRadius: '2px',
+                  margin: '0px 3px',
+                  marginBottom: '5px'
+                }}>
+                  Express
+                </p>
+                <p className="JavaScript">JavaScript</p>
+                    <p className="HTML">HTML/CSS</p>
+                    <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(35, 186, 21)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>AWS</p>
+                      </div>
+                      <div className="line"></div>
+                      <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                        • Full stack user management portal with CRUD capabilities
+                      </p>
+                      <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                        • Fully responsive front end made with EJS and Bootsrap
+                      </p>
+                      <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                        • Custom built RESTful API 
+                      </p>
+                      <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                        • Backend with NodeJS, Express and Mongoose, with MongoDB database
+                      </p>
+                      <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                        • Deployed with AWS EC2 Instance
+                      </p>
+                      <div style={{ display: "flex", marginTop: "5%", flexShrink: "2"}}>
+                        <h4 style={{ marginRight: '10px' }}><i class="ri-cursor-line"></i></h4>
+                        <h4 style={{ marginRight: '15px' }}>Website Link: </h4>
+                        <a href="https://aditya-ved-user-system.com/" target="_blank" rel="noopener noreferrer" className="email">https://aditya-ved-user-system.com</a>
+                      </div>
+                      <div style={{ display: "flex", marginTop: "5%", flexShrink: "2" }}>
+                        <h4 style={{ marginRight: '10px' }}><i className="ri-github-fill"></i></h4>
+                        <h4 style={{ marginRight: '15px' }}>Source Code: </h4>
+                        <a href="https://github.com/aved2/CRUD-User-Management-Service" target="_blank" rel="noopener noreferrer" className="email">github.com/aved2/CRUD-User-Management-Service</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>)}
             </Popup>
             <Popup contentStyle={{ width: "95vw", borderRadius: "10px", paddingBottom: "20px", marginTop: "90px", maxHeight: "90vh", overflowY: "auto" }} trigger={
               <div className="col-lg-3 col-sm-6">
@@ -569,7 +815,7 @@ function App() {
               <div className="col-lg-3 col-sm-6">
                 <div className="projects py-5 px-4 border">
                   <h5>Content Aware Image Resizing</h5>
-                  <p>Resizes an image using a content aware technique called "seam carving", preserving an image's most important parts to resize it without distortion.</p>
+                  <p>Image resizing with "seam carving" technique, preserving an image's most important parts to resize it without distortion.</p>
                   <div className="langs">
                     <p className="c">C++</p>
                   </div>
@@ -854,20 +1100,12 @@ function App() {
                         • Bootstrap for responsive design, React for dynamic UI/UX
                       </p>
                       <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                        • NodeJS???
+                        • Deployed with Github Pages
                       </p>
-                      <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                        • Deployed with AWS???
-                      </p>
-                      <div style={{ display: "flex", marginTop: "5%" }}>
-                        <h4 style={{ marginRight: '10px' }}><i class="ri-cursor-line"></i></h4>
-                        <h4 style={{ marginRight: '15px' }}>Website Link: </h4>
-                        <a href="https://coin-stats-4ad40.web.app/#/" target="_blank" rel="noopener noreferrer" className="email">https://coin-stats-4ad40.web.app/#/</a>
-                      </div>
                       <div style={{ display: "flex", marginTop: "5%" }}>
                         <h4 style={{ marginRight: '10px' }}><i className="ri-github-fill"></i></h4>
                         <h4 style={{ marginRight: '15px' }}>Source Code: </h4>
-                        <a href="https://github.com/aved2/Coin-Stats" target="_blank" rel="noopener noreferrer" className="email">github.com/aved2/Coin-Stats</a>
+                        <a href="https://github.com/aved2/Portfolio-Website" target="_blank" rel="noopener noreferrer" className="email">github.com/aved2/Portfolio-Website</a>
                       </div>
                     </div>
                   </div>

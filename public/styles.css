@@ -111,7 +111,7 @@ img {
     font-size: 14px;
     color: white;
     background-color: rgb(2, 0, 125);
-    width: 95px;
+    width: 85px;
     height: 24px;
     border-radius: 2px;
     margin: 0px 3px;
@@ -295,6 +295,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
+    justify-content: center;
 }
 
 .custom-link {
