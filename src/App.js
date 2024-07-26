@@ -41,7 +41,7 @@ function App() {
       {/* Navbar */}
       < nav className="navbar navbar-expand-lg bg-light" >
         <div className="container-fluid">
-          <a href="#home" className="navbar-brand" href="#">Aditya Ved</a>
+          <a className="navbar-brand" href="#">Aditya Ved</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -181,7 +181,8 @@ function App() {
                   width: '70px',
                   height: '24px',
                   borderRadius: '2px',
-                  margin: '0px 3px'
+                  margin: '0px 3px',
+                  marginBottom: '20px'
                 }}>
                   NodeJS
                 </p>
@@ -244,7 +245,7 @@ function App() {
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 128, 29)", width: "50px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Flask</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(17, 17, 163)", width: "75px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Bootstrap</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(35, 186, 21)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: "20px" }}>AWS</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(135, 106, 11)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>IBM</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(135, 106, 11)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: '20px' }}>IBM</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 29, 85)", width: "70px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Streamlit</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(9, 168, 49)", width: "100px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>React Router</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(29, 114, 164)", width: "40px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>MUI</p>
@@ -257,7 +258,7 @@ function App() {
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(40, 70, 130)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>PyTorch</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>TensorFlow</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 19, 159)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenCV</p>
-                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 128, 29)", width: "82px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenAI API</p>
+                <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 128, 29)", width: "82px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: '20px' }}>OpenAI API</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(29, 153, 164)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Llama3</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(60, 80, 80)", width: "67px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>LMStudio</p>
                 <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(90, 134, 8)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Phidata</p>
@@ -409,7 +410,7 @@ function App() {
                       <div className="col-12">
                         <div className="setion-title text-center">
                           <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>ML Trading Bot</h1>
-                          <div style={{ display: "flex", justifyContent: "center", flexShrink: "2" }}>
+                          <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                             <p class="python">Python</p>
                             <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(40, 70, 130)", width: "65px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>PyTorch</p>
                             <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(190, 134, 108)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Alpaca</p>
@@ -602,7 +603,7 @@ function App() {
                       <div className="col-12">
                         <div className="setion-title text-center">
                           <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>AI Equity Research Tool</h1>
-                          <div style={{ display: "flex", justifyContent: "center", flexShrink: "2" }}>
+                          <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                             <p class="python">Python</p>
                             <p class="jupyter">Jupyter Notebook</p>
                             <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 108, 89)", width: "82px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenAI API</p>
@@ -722,7 +723,7 @@ function App() {
                   <div className="col-12">
                     <div className="setion-title text-center">
                       <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>AI Search Assistant</h1>
-                      <div style={{ display: "flex", justifyContent: "center", flexShrink: "2" }}>
+                      <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                         <p className="python">Python</p>
                         <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(164, 128, 29)", width: "82px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>OpenAI API</p>
                         <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(90, 134, 8)", width: "56px", height: "24px", borderRadius: "2px", margin: "0px 3px" }}>Phidata</p>
@@ -882,7 +883,7 @@ function App() {
                   <div className="col-12">
                     <div className="setion-title text-center">
                       <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>Coin Stats</h1>
-                      <div style={{ display: "flex", justifyContent: "center", flexShrink: "2" }}>
+                      <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                         <p className="React">React</p>
                         <p className="JavaScript">JavaScript</p>
                         <p className="HTML">HTML/CSS</p>
@@ -959,7 +960,7 @@ function App() {
                   <div className="col-12">
                     <div className="setion-title text-center">
                       <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>ColorTaiko!</h1>
-                      <div style={{ display: "flex", justifyContent: "center", flexShrink: "2" }}>
+                      <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                         <p className="React">React</p>
                         <p style={{
                           fontSize: '14px',
@@ -1174,13 +1175,13 @@ function App() {
                             <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
                               As the mobile app is still in the pre-release stage, further steps include head to head gameplay capability, where users can compare their progress to other players around the world, and obviously public release and deployment
                             </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              Check out my LinkedIn post on this topic to learn more!
+                            </p>
                             <div style={{ display: "flex", marginTop: "5%" }}>
                               <h4 style={{ marginRight: '10px' }}><i class="ri-cursor-line"></i></h4>
                               <h4 style={{ marginRight: '15px' }}>Professor Mineyev's Paper: </h4>
                               <a href="https://mineyev.web.illinois.edu/art/top-geom-uzd-origami.pdf" target="_blank" rel="noopener noreferrer" className="email">mineyev.web.illinois.edu/art/top-geom-uzd-origami.pdf</a>
-                            </div>
-                            <div style={{ display: "flex", flexShrink: "2", justifyContent: 'center' }}>
-                              <img src="../images/iml.jpeg" alt="Path Planner" style={{ margin: "20px" }} />
                             </div>
                           </div>
                         </div>
