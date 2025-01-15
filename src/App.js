@@ -85,7 +85,7 @@ function App() {
               <h1 className="display-2 fw-bold">Hi there! I am <span className="text-brand">Aditya Ved.</span></h1>
               <h4 className="mt-3 mb-5">Passionate student and software engineer.</h4>
               <a href="#contact" className="btn btn-brand">Get Connected</a>
-              <a href="resume.pdf" data-fancybox data-type="pdf" className="btn btn-brand" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="resume1.pdf" data-fancybox data-type="pdf" className="btn btn-brand" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
             <div className="col-md-6">
               <img className="headshot" src="./images/headshot.png" alt="Headshot" />
@@ -102,8 +102,7 @@ function App() {
             <div className="col-12">
               <div className="setion-title text-center">
                 <h1 style={{ color: 'var(--c-brand)' }}>About Me</h1>
-                <p style={{ color: 'white', fontSize: '20px' }}>Hi! I'm Aditya, a student studying Mathematics and Computer
-                  Science at the University of Illinois Urbana-Champaign. With experience in Full Stack Development and AI/ML, I am driven to apply my passion, knowledge, and
+                <p style={{ color: 'white', fontSize: '20px' }}>Hi! I'm Aditya, a student studying Computer Science and Mathematics at the University of Illinois Urbana-Champaign. With experience in Full Stack Development and AI/ML, I am driven to apply my passion, knowledge, and
                   experience to create impactful and innovative software solutions in the industry.</p>
                 <div className="line">
                 </div>
@@ -334,7 +333,7 @@ function App() {
                       <div className="col-12">
                         <div className="setion-title text-center">
                           <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>Real Time Sign Language Recognition</h1>
-                          <div style={{ display: "flex", justifyContent: "center", flexShrink: "2" }}>
+                          <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
                             <p class="python">Python</p>
                             <p className="JavaScript">JavaScript</p>
                             <p style={{ fontSize: "14px", color: "white", backgroundColor: "rgb(206, 79, 59)", width: "80px", height: "24px", borderRadius: "2px", margin: "0px 3px", marginBottom: "5px" }}>TensorFlow</p>
@@ -1130,7 +1129,7 @@ function App() {
                   <h5 className="exp-name">Software Engineer - Undergraduate Research</h5>
                   <h6 className="exp-title">Illinois Mathematics Lab</h6>
                   <div>
-                    <p className="exp-date">December 2023 - Present</p>
+                    <p className="exp-date">Jan 2024 - December 2024</p>
                     <p className="exp-text">• Research Assistant to Professor Igor Mineyev, researching innovative solutions to popularize and disprove Kaplansky's Zero Divisor and Unit Conjecture, popular topics in modern Ring Theory and Topology.</p>
                     <p className="exp-text">• Used ReactJS with custom ReactFlow components to develop a web-based game “Color Taiko”, Apache Cordova to package directories into a mobile compatible version</p>
                     <p className="exp-text">• “ColorTaiko!” is a crowd sourcing method to finding valid counter examples to Kaplansky's conjecture</p>
