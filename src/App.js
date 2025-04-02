@@ -34,8 +34,6 @@ function App() {
       }
     }
   }
-
-
   return (
     <div className="App">
       {/* Navbar */}
@@ -55,10 +53,10 @@ function App() {
                 <a className="nav-link" href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#projects">Projects</a>
+                <a className="nav-link" href="#experience">Experience</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#experience">Experience</a>
+                <a className="nav-link" href="#projects">Projects</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
@@ -85,7 +83,7 @@ function App() {
               <h1 className="display-2 fw-bold">Hi there! I am <span className="text-brand">Aditya Ved.</span></h1>
               <h4 className="mt-3 mb-5">Passionate student and software engineer.</h4>
               <a href="#contact" className="btn btn-brand">Get Connected</a>
-              <a href="resume1.pdf" data-fancybox data-type="pdf" className="btn btn-brand" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="resume.pdf" data-fancybox data-type="pdf" className="btn btn-brand" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
             <div className="col-md-6">
               <img className="headshot" src="./images/headshot.png" alt="Headshot" />
@@ -282,6 +280,137 @@ function App() {
           </div>
         </div>
 
+      </section >
+
+
+      {/* Experience */}
+      < section id="experience" className="section-padding" data-aos="fade-up" >
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="setion-title text-center">
+                <h1 style={{ color: 'var(--c-brand)' }}>Experience</h1>
+                <div className="line"></div>
+              </div>
+              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
+                <img className="exp-logo" style={{ height: '70px', width: '100px'}} src="./images/AMD-logo.jpg" alt="AMD" />
+                <div>
+                  <h5 className="exp-name" style={{ marginTop: '10px' }}>AI/ML Engineering Intern</h5>
+                  <h6 className="exp-title">AMD</h6>
+                  <div>
+                    <p className="exp-date">May 2025 - August 2025</p>
+                    <p className="exp-text">• Incoming Summer 2025 Intern</p>
+                  </div>
+                </div>
+              </div>
+              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
+                <img className="exp-logo" style={{ marginTop: "15px", marginRight: "60px",  height: '70px', width: '70px', borderRadius:  '8px'}} src="./images/gies.jpg" alt="Illinois Mathematics Lab" />
+                <div>
+                  <h5 className="exp-name" style={{ marginTop: '10px' }}>Software Engineer</h5>
+                  <h6 className="exp-title">Gies Disruption Lab</h6>
+                  <div>
+                    <p className="exp-date">January 2025 - Present</p>
+                    <p className="exp-text">• Building a chrome extension for an LLM fine tuned to help students access campus resources</p>
+                    <p className="exp-text">• Implementing web scrape and RAG pipeline for the LLM</p>
+                  </div>
+                </div>
+              </div>
+              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
+                <img className="exp-logo" style={{ marginTop: "15px", marginRight: "80px", height: '70px', width: '50px'}} src="./images/uiuc.png" alt="Illinois Mathematics Lab" />
+                <div>
+                  <h5 className="exp-name" style={{ marginTop: '10px' }}>AI/ML Researcher</h5>
+                  <h6 className="exp-title">University of Illinois Urbana-Champaign</h6>
+                  <div>
+                    <p className="exp-date">January 2025 - May 2025</p>
+                    <p className="exp-text">• Researching image immunization solutions against malicious attacks by diffusion models</p>
+                    <p className="exp-text">• Implemented a pipeline with SAM and DiffVax for image immunization</p>
+                    <p className="exp-text">• Built a full stack android app for image immunization with React Native, Flask, and PyTorch </p>
+                  </div>
+                </div>
+              </div>
+              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
+                <img className="exp-logo" src="./images/IGL.png" alt="Illinois Mathematics Lab" />
+                <div>
+                  <h5 className="exp-name">Software Engineer - Undergraduate Research</h5>
+                  <h6 className="exp-title">Illinois Mathematics Lab</h6>
+                  <div>
+                    <p className="exp-date">Jan 2024 - December 2024</p>
+                    <p className="exp-text">• Research Assistant to Professor Igor Mineyev, researching innovative solutions to popularize and disprove Kaplansky's Zero Divisor and Unit Conjecture, popular topics in modern Ring Theory and Topology.</p>
+                    <p className="exp-text">• Used ReactJS with custom ReactFlow components to develop a web-based game “Color Taiko”, Apache Cordova to package directories into a mobile compatible version</p>
+                    <p className="exp-text">• “ColorTaiko!” is a crowd sourcing method to finding valid counter examples to Kaplansky's conjecture</p>
+                  </div>
+                  <Popup contentStyle={{ width: "95vw", borderRadius: "10px", paddingBottom: "20px", marginTop: "90px", maxHeight: "90vh", overflowY: "auto" }} trigger={
+                    <span className="custom-link" style={{ justifyContent: 'left' }}>
+                      <span className="rm" style={{ color: 'white', fontSize: '18px' }}>Read more</span>
+                      <i className="ri-arrow-right-s-line"></i>
+                    </span>}
+                    modal nested >
+                    {close => (<div className="container">
+                      <div className="row text-center">
+                        <button className="btn btn-brand" style={{ width: "110px", display: "flex", marginTop: "20px", justifyContent: "space-between" }} onClick={() => close()}><i class="ri-arrow-left-s-line"></i>Back</button>
+                        <div className="col-12">
+                          <div className="setion-title text-center">
+                            <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>ColorTaiko</h1>
+                            <div className="line"></div>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              This past semester, I had the pleasure of working as a research assistant alongside Professor Igor Mineyev at Illinois Mathematics Lab (Formerly Illinois Geometry Lab), expanding my knowledge in Topology, Graph Theory, and Geometry while bridging Mathematics and Technology. As a great educational and professional experience, here is a summary of my work and contributions:
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              ▶ Background:
+                              Our work focused specifically upon the the zero divisor and unit conjecture of Kaplansky's conjecture, two significant hypotheses in the field of ring theory. In a nutshell, the zero divisor conjecture states that if G is a torsion free group and K is a ring, the group ring K[G] has no zero divisors. For deeper explanation and mathematical proof you can refer to Professor Mineyev's paper linked below.
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              ▶ Our Mission:
+                              Using technology to create innovative solutions to popularize and provide counterexamples for a longstanding mathematical conjecture known as Kaplansky's zero divisor conjecture.
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              ▶ Our Work:
+                              To provide a counterexample for this long standing conjecture, our solution was creating "ColorTaiko!" a simple online game with the vision of using crowdsourcing to provide a possible solution.
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              "ColorTaiko!" is a purely combanatorial way of providing counterexamples (instead of using algebraic process). Users join vertices of a bipartite "taiko" (product graph, pictured below) to create edges and cells, that are given certain colors based upon equivalence class conditions of a torsion free group ring. Ultimately, if a user creates these classes under the conditions provided from one node to every other node, a counterexample has been provided.
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              The preliminary stage of our project included a web version of the game. The game was developed using ReactJS and ReactFlow, an open source library we used to create the custom bipartite graph component. We transcribed the mathematical conditions of the conjecture (p. 24 of the paper) into logical conditions that we inserted into the gameplay.
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              The next stage of our project was a mobile app. Using Apache Cordova to package our ReactJS directories into a compatible mobile version (as the ReactFlow custom component is not directly native compatible). The mobile app also features a further developed UI/UX, and educational features.
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              As the mobile app is still in the pre-release stage, further steps include head to head gameplay capability, where users can compare their progress to other players around the world, and obviously public release and deployment
+                            </p>
+                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
+                              Check out my LinkedIn post on this topic to learn more!
+                            </p>
+                            <div style={{ display: "flex", marginTop: "5%" }}>
+                              <h4 style={{ marginRight: '10px' }}><i class="ri-cursor-line"></i></h4>
+                              <h4 style={{ marginRight: '15px' }}>Professor Mineyev's Paper: </h4>
+                              <a href="https://mineyev.web.illinois.edu/art/top-geom-uzd-origami.pdf" target="_blank" rel="noopener noreferrer" className="email">mineyev.web.illinois.edu/art/top-geom-uzd-origami.pdf</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>)}
+                  </Popup>
+                </div>
+              </div>
+              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
+                <img className="exp-logo" src="./images/IRIS.png" alt="Illinois Mathematics Lab" />
+                <div>
+                  <h5 className="exp-name" style={{ marginTop: '10px' }}>Autonomous Navigation Engineer</h5>
+                  <h6 className="exp-title">Illinois Robotics in Space</h6>
+                  <div>
+                    <p className="exp-date">August 2023 - February 2024</p>
+                    <p className="exp-text">• Integrated ROS2, RTAB-Maps, Nav2, Gazebo, Python to build an autonomous navigation system for a lunar rover</p>
+                    <p className="exp-text">• Navigation algorithm based on A-star, fine-tuned to allow the rover to perform tasks such as digging and carrying material</p>
+                    <p className="exp-text">• Completed lunar rover to be submitted to the NASA Lunabotics competition at the Kennedy Space Center, FL</p>
+                    <p className="exp-text">• Participated in public outreach, presenting at local schools, an effort that won the 3rd Place Award for Public Outreach</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section >
 
       {/* Projects */}
@@ -1110,100 +1239,6 @@ function App() {
                 </div>
               </div>)}
             </Popup>
-          </div>
-        </div>
-      </section >
-
-      {/* Experience */}
-      < section id="experience" className="section-padding" data-aos="fade-up" >
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="setion-title text-center">
-                <h1 style={{ color: 'var(--c-brand)' }}>Experience</h1>
-                <div className="line"></div>
-              </div>
-              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
-                <img className="exp-logo" src="./images/IGL.png" alt="Illinois Mathematics Lab" />
-                <div>
-                  <h5 className="exp-name">Software Engineer - Undergraduate Research</h5>
-                  <h6 className="exp-title">Illinois Mathematics Lab</h6>
-                  <div>
-                    <p className="exp-date">Jan 2024 - December 2024</p>
-                    <p className="exp-text">• Research Assistant to Professor Igor Mineyev, researching innovative solutions to popularize and disprove Kaplansky's Zero Divisor and Unit Conjecture, popular topics in modern Ring Theory and Topology.</p>
-                    <p className="exp-text">• Used ReactJS with custom ReactFlow components to develop a web-based game “Color Taiko”, Apache Cordova to package directories into a mobile compatible version</p>
-                    <p className="exp-text">• “ColorTaiko!” is a crowd sourcing method to finding valid counter examples to Kaplansky's conjecture</p>
-                  </div>
-                  <Popup contentStyle={{ width: "95vw", borderRadius: "10px", paddingBottom: "20px", marginTop: "90px", maxHeight: "90vh", overflowY: "auto" }} trigger={
-                    <span className="custom-link" style={{ justifyContent: 'left' }}>
-                      <span className="rm" style={{ color: 'white', fontSize: '18px' }}>Read more</span>
-                      <i className="ri-arrow-right-s-line"></i>
-                    </span>}
-                    modal nested >
-                    {close => (<div className="container">
-                      <div className="row text-center">
-                        <button className="btn btn-brand" style={{ width: "110px", display: "flex", marginTop: "20px", justifyContent: "space-between" }} onClick={() => close()}><i class="ri-arrow-left-s-line"></i>Back</button>
-                        <div className="col-12">
-                          <div className="setion-title text-center">
-                            <h1 style={{ color: 'var(--c-dark)', padding: "10px" }}>ColorTaiko</h1>
-                            <div className="line"></div>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              This past semester, I had the pleasure of working as a research assistant alongside Professor Igor Mineyev at Illinois Mathematics Lab (Formerly Illinois Geometry Lab), expanding my knowledge in Topology, Graph Theory, and Geometry while bridging Mathematics and Technology. As a great educational and professional experience, here is a summary of my work and contributions:
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              ▶ Background:
-                              Our work focused specifically upon the the zero divisor and unit conjecture of Kaplansky's conjecture, two significant hypotheses in the field of ring theory. In a nutshell, the zero divisor conjecture states that if G is a torsion free group and K is a ring, the group ring K[G] has no zero divisors. For deeper explanation and mathematical proof you can refer to Professor Mineyev's paper linked below.
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              ▶ Our Mission:
-                              Using technology to create innovative solutions to popularize and provide counterexamples for a longstanding mathematical conjecture known as Kaplansky's zero divisor conjecture.
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              ▶ Our Work:
-                              To provide a counterexample for this long standing conjecture, our solution was creating "ColorTaiko!" a simple online game with the vision of using crowdsourcing to provide a possible solution.
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              "ColorTaiko!" is a purely combanatorial way of providing counterexamples (instead of using algebraic process). Users join vertices of a bipartite "taiko" (product graph, pictured below) to create edges and cells, that are given certain colors based upon equivalence class conditions of a torsion free group ring. Ultimately, if a user creates these classes under the conditions provided from one node to every other node, a counterexample has been provided.
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              The preliminary stage of our project included a web version of the game. The game was developed using ReactJS and ReactFlow, an open source library we used to create the custom bipartite graph component. We transcribed the mathematical conditions of the conjecture (p. 24 of the paper) into logical conditions that we inserted into the gameplay.
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              The next stage of our project was a mobile app. Using Apache Cordova to package our ReactJS directories into a compatible mobile version (as the ReactFlow custom component is not directly native compatible). The mobile app also features a further developed UI/UX, and educational features.
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              As the mobile app is still in the pre-release stage, further steps include head to head gameplay capability, where users can compare their progress to other players around the world, and obviously public release and deployment
-                            </p>
-                            <p style={{ color: 'var(--c-dark)', fontSize: '20px', textAlign: "left" }}>
-                              Check out my LinkedIn post on this topic to learn more!
-                            </p>
-                            <div style={{ display: "flex", marginTop: "5%" }}>
-                              <h4 style={{ marginRight: '10px' }}><i class="ri-cursor-line"></i></h4>
-                              <h4 style={{ marginRight: '15px' }}>Professor Mineyev's Paper: </h4>
-                              <a href="https://mineyev.web.illinois.edu/art/top-geom-uzd-origami.pdf" target="_blank" rel="noopener noreferrer" className="email">mineyev.web.illinois.edu/art/top-geom-uzd-origami.pdf</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>)}
-                  </Popup>
-                </div>
-              </div>
-              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
-                <img className="exp-logo" src="./images/IRIS.png" alt="Illinois Mathematics Lab" />
-                <div>
-                  <h5 className="exp-name" style={{ marginTop: '10px' }}>Autonomous Navigation Engineer</h5>
-                  <h6 className="exp-title">Illinois Robotics in Space</h6>
-                  <div>
-                    <p className="exp-date">August 2023 - February 2024</p>
-                    <p className="exp-text">• Integrated ROS2, RTAB-Maps, Nav2, Gazebo, Python to build an autonomous navigation system for a lunar rover</p>
-                    <p className="exp-text">• Navigation algorithm based on A-star, fine-tuned to allow the rover to perform tasks such as digging and carrying material</p>
-                    <p className="exp-text">• Completed lunar rover to be submitted to the NASA Lunabotics competition at the Kennedy Space Center, FL</p>
-                    <p className="exp-text">• Participated in public outreach, presenting at local schools, an effort that won the 3rd Place Award for Public Outreach</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section >
