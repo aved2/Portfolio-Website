@@ -83,7 +83,7 @@ function App() {
               <h1 className="display-2 fw-bold">Hi there! I am <span className="text-brand">Aditya Ved.</span></h1>
               <h4 className="mt-3 mb-5">Passionate student and software engineer.</h4>
               <a href="#contact" className="btn btn-brand">Get Connected</a>
-              <a href="resume.pdf" data-fancybox data-type="pdf" className="btn btn-brand" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="resume_amd.pdf" data-fancybox data-type="pdf" className="btn btn-brand" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
             <div className="col-md-6">
               <img className="headshot" src="./images/headshot.png" alt="Headshot" />
@@ -149,7 +149,7 @@ function App() {
                   borderRadius: '2px',
                   margin: '0px 3px'
                 }}>
-                  LaTeX
+                  Bash
                 </p>
               </div>
               <div className="langs-list">
@@ -299,7 +299,22 @@ function App() {
                   <h6 className="exp-title">AMD</h6>
                   <div>
                     <p className="exp-date">May 2025 - August 2025</p>
-                    <p className="exp-text">• Incoming Summer 2025 Intern</p>
+                    <p className="exp-text">• Performance benchmarking/optimization for AI inference workloads on AMD EPYC</p>
+                    <p className="exp-text">• Optimizing AI workloads for large scale production use on AMD backed cloud compute (GCP, OCI, AWS)</p>
+                    <p className="exp-text">• Implemented advanced techniques including model quantization and KV caching for hardware-aware
+                    acceleration</p>
+                  </div>
+                </div>
+              </div>
+              <div className="langs-list" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
+                <img className="exp-logo" style={{ marginTop: "15px", marginRight: "60px",  height: '70px', width: '70px', borderRadius:  '8px'}} src="./images/gies.jpg" alt="Illinois Mathematics Lab" />
+                <div>
+                  <h5 className="exp-name" style={{ marginTop: '10px' }}>Technical Project Manager</h5>
+                  <h6 className="exp-title">Gies Disruption Lab</h6>
+                  <div>
+                    <p className="exp-date">August 2025 - Present</p>
+                    <p className="exp-text">• Managing a team of software engineers delivering client-facing products for org clients and partners</p>
+                    <p className="exp-text">• Primary client point of contact—translating business goals into clear technical deliverables and timelines</p>
                   </div>
                 </div>
               </div>
@@ -309,7 +324,7 @@ function App() {
                   <h5 className="exp-name" style={{ marginTop: '10px' }}>Software Engineer</h5>
                   <h6 className="exp-title">Gies Disruption Lab</h6>
                   <div>
-                    <p className="exp-date">January 2025 - Present</p>
+                    <p className="exp-date">January 2025 - August 2025</p>
                     <p className="exp-text">• Building a chrome extension for an LLM fine tuned to help students access campus resources</p>
                     <p className="exp-text">• Implementing web scrape and RAG pipeline for the LLM</p>
                   </div>
